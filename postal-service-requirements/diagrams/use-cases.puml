@@ -1,0 +1,30 @@
+@startuml
+left to right direction
+skinparam shadowing false
+actor "Посетитель" as Guest
+actor "Авторизованный\nпользователь" as User
+actor "Администратор" as Admin
+User --|> Guest
+rectangle "Сервис почтовых отправлений" {
+  usecase "Авторизация и регистрация" as UC01
+  usecase "Оформление отправления" as UC02
+  usecase "Отслеживание отправления" as UC03
+  usecase "Оплата услуги" as UC04
+  usecase "Поиск отделения" as UC05
+  usecase "Вызов курьера" as UC06
+  usecase "Управление личным кабинетом" as UC07
+  usecase "Обращение в поддержку" as UC08
+  usecase "Участие в благотворительной программе" as UC09
+  usecase "Управление заказами" as UC10
+}
+Guest -- UC01
+User -- UC02
+Guest -- UC03
+User -- UC04
+Guest -- UC05
+User -- UC06
+User -- UC07
+Guest -- UC08
+User -- UC09
+Admin -- UC10
+@enduml

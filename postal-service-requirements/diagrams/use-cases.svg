@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="980" viewBox="0 0 1040 980">
+<rect width="1040" height="980" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#183449;font-size:16px}.edge{stroke:#51697b;stroke-width:1.5;fill:none}.usecase{fill:#f0f6fa;stroke:#46718f;stroke-width:1.5}</style>
+<defs><marker id="triangle" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M1,1 L12,7 L1,13 Z" fill="white" stroke="#51697b"/></marker></defs>
+<rect x="390" y="30" width="620" height="910" rx="8" fill="#fcfdff" stroke="#8ba5b8"/>
+<text x="700" y="65" text-anchor="middle" font-weight="bold">Сервис почтовых отправлений</text>
+<path class="edge" d="M169,230 L420,135"/>
+<ellipse class="usecase" cx="700" cy="135" rx="280" ry="31"/>
+<text x="700" y="141" text-anchor="middle">UC-01. Авторизация и регистрация</text>
+<path class="edge" d="M169,565 L420,218"/>
+<ellipse class="usecase" cx="700" cy="218" rx="280" ry="31"/>
+<text x="700" y="224" text-anchor="middle">UC-02. Оформление отправления</text>
+<path class="edge" d="M169,230 L420,301"/>
+<ellipse class="usecase" cx="700" cy="301" rx="280" ry="31"/>
+<text x="700" y="307" text-anchor="middle">UC-03. Отслеживание отправления</text>
+<path class="edge" d="M169,565 L420,384"/>
+<ellipse class="usecase" cx="700" cy="384" rx="280" ry="31"/>
+<text x="700" y="390" text-anchor="middle">UC-04. Оплата услуги</text>
+<path class="edge" d="M169,230 L420,467"/>
+<ellipse class="usecase" cx="700" cy="467" rx="280" ry="31"/>
+<text x="700" y="473" text-anchor="middle">UC-05. Поиск отделения</text>
+<path class="edge" d="M169,565 L420,550"/>
+<ellipse class="usecase" cx="700" cy="550" rx="280" ry="31"/>
+<text x="700" y="556" text-anchor="middle">UC-06. Вызов курьера</text>
+<path class="edge" d="M169,565 L420,633"/>
+<ellipse class="usecase" cx="700" cy="633" rx="280" ry="31"/>
+<text x="700" y="639" text-anchor="middle">UC-07. Управление личным кабинетом</text>
+<path class="edge" d="M169,230 L420,716"/>
+<ellipse class="usecase" cx="700" cy="716" rx="280" ry="31"/>
+<text x="700" y="722" text-anchor="middle">UC-08. Обращение в поддержку</text>
+<path class="edge" d="M169,565 L420,799"/>
+<ellipse class="usecase" cx="700" cy="799" rx="280" ry="31"/>
+<text x="700" y="805" text-anchor="middle">UC-09. Участие в благотворительной программе</text>
+<path class="edge" d="M169,865 L420,882"/>
+<ellipse class="usecase" cx="700" cy="882" rx="280" ry="31"/>
+<text x="700" y="888" text-anchor="middle">UC-10. Управление заказами</text>
+<circle cx="145" cy="195" r="13" fill="white" stroke="#51697b" stroke-width="2"/>
+<path class="edge" d="M145,208 V250 M121,225 H169 M145,250 L125,278 M145,250 L165,278"/>
+<text x="145" y="302" text-anchor="middle">Посетитель</text>
+<circle cx="145" cy="530" r="13" fill="white" stroke="#51697b" stroke-width="2"/>
+<path class="edge" d="M145,543 V585 M121,560 H169 M145,585 L125,613 M145,585 L165,613"/>
+<text x="145" y="637" text-anchor="middle">Авторизованный</text>
+<text x="145" y="659" text-anchor="middle">пользователь</text>
+<circle cx="145" cy="830" r="13" fill="white" stroke="#51697b" stroke-width="2"/>
+<path class="edge" d="M145,843 V885 M121,860 H169 M145,885 L125,913 M145,885 L165,913"/>
+<text x="145" y="937" text-anchor="middle">Администратор</text>
+<path class="edge" d="M90,530 V335 H145 V320" marker-end="url(#triangle)"/>
+<text x="75" y="445" text-anchor="middle" font-size="12" transform="rotate(-90 75 445)">специализация роли</text>
+</svg>
